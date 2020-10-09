@@ -1,0 +1,332 @@
+    /* @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Overpass:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+root {
+    font-size: 16px;
+    --logomargin : 8rem;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Overpass;
+}
+.navbar{
+    text-decoration: none;
+    background-color: #F8FBFF;
+    font-family:Overpass;
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    padding: 0 7rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.212);
+    position: fixed;
+    top:0;
+    z-index: 100;
+    
+}
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Arimo', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin:0;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    
+    height: 100%;
+}
+
+.navbar-link {
+    padding-top: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border-bottom: 3px solid #1567ff00;
+    transition:all 0.2s ease;
+}
+
+.navbar-link:hover {
+    border-bottom: 3px solid #1566FF;
+    color: #1566FF;
+    
+}
+
+.signin-btn {
+    width: 160px;
+    height: 30px;
+    border:none;
+    box-shadow: 0px 2px 6px #2420201a;
+    border-radius: 28px;
+    color: white;
+    font-weight: 800;
+    background: radial-gradient( circle ,#00C4FF,#020BF8 );
+}
+
+.signin-btn .signin{
+    color: white;
+    opacity: 1;
+    position: relative;
+    top: 50;
+    padding: 0;
+}
+
+
+/*.section1-img::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    background: url(/img/section1-img.png) ;
+    background-repeat: no-repeat;
+    opacity: .7;
+}*/
+
+.section1-left {
+    
+    margin:13rem 13rem 6rem 12rem;;
+
+}
+
+.text-container1 {
+    width: 500px;
+    font-family: serif;
+    
+}
+
+.text-container1 h1 {
+    font-size: 35px
+}
+
+.text-container1 p {
+    line-height: 27px;
+}
+
+.section1-btns {
+    margin-left: 30px;
+    margin-top:50px;
+}
+
+.section1-btns button{
+    width: 140px;
+    height: 35px;
+    margin-left: 10px;
+    border:none;
+    box-shadow: 0px 2px 6px #2420201a;
+    border-radius: 28px;
+    color: white;
+    font-weight: 800;
+    background-image: linear-gradient(to right,#1566FF, #15C9FF);
+}
+
+#aboutus-btn {
+    color: #1572FF;
+    background-image: linear-gradient(to right,white, white);
+    border: 2px solid #156FFF;
+
+}
+.searchbar-container {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar {
+    height: 37px;
+    width: 400px;
+    background-color: white;
+    border:none;
+    box-shadow: -2px 0px 7px #24202048;
+    border-radius: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.searchbar [type=text] {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0px 40px;
+    border-radius: 300px;
+}
+
+.search-btn {
+    height: 100%;
+    width: 20%;
+    border-radius: 700px;
+    padding-left:6px;
+    margin-right: 5px;
+    border:none;
+    background-color: white;
+}
+
+.search-icon {
+    height: 30px;
+    width: 30px;
+    padding-top: 3px;
+    font-size: 25px;
+    background:  linear-gradient(to right,#15C9FF, #1566FF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+.section2 {
+    margin-top: 9rem;
+    height: 29rem;
+    width: 100%;
+
+}
+h2 {
+    color:#0021AC;
+    font-size: 1.9rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.section2 img {
+    float: left;
+    width: 37rem;
+    display: inline-block
+}
+
+.section2-text-container {
+    position:absolute;
+    right:0;
+    margin-top: 3rem;
+    height: 19rem;
+    width: 65rem;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 0px 0 0 250px;
+    background-image: linear-gradient(to right, #3336eec9,#d322ff85);
+    z-index: -1;
+    color:white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.section2-text-container p {
+    margin: 2rem 0 1.5rem 0;
+}
+
+.section2-text-container ul {
+    margin:0;
+    padding-left:1rem;
+    font-size: 1.3rem;
+}
+.section2-text-container ul li{
+    font-weight: 800;
+    margin-bottom: 2rem;
+
+
+}
+
+.section3 {
+    height: 25rem;
+    width: 100%;
+}
+
+.section3-container{
+    position: relative;
+    width: 100%;
+    height: 24rem;
+    background:  url(/home/ashu/WebDev/copy-design/img/section3-bg.png) no-repeat center center/cover;
+    z-index: 1;
+}
+
+
+
+.overlay {
+    background: #228ba8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    opacity: .8;
+    z-index: -1;
+}
+
+.section3-text-container{
+    padding: 3.5rem 0 0 13rem;
+    width: 43rem;
+    color:white;
+    z-index: 1;
+
+}
+
+.section3-text-container h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.section3-text-container p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight:100;
+    width: 480px
+}
+
+.blank-iphone {
+    width: 300px;
+    z-index: 10;
+    position: absolute;
+    right: 164px;
+    top: 1268px;    
+    z-index: 2;
+    background-blend-mode: darken;
+}
+
+.section4 {
+    margin-top: 9rem;
+    height: 33rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel2{
+    width: 70%;
+    background-image: linear-gradient(to right, #73DFFF,#000D8B);
+    height: 25rem;
+    border-radius: 2rem;
+    padding: 40px;
+    color: white;
+
+}
+
+footer {
+    height: 25rem;
+    background-color: #000D8B;
+    border-radius: 3rem 3rem 0 0;
+}
